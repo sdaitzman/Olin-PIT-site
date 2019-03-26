@@ -9,7 +9,7 @@ html, body {
 
 ::selection {
   color: white;
-  background: #e13d79;
+  background: hsl(209, 28%, 47%);
 }
 
 html {
