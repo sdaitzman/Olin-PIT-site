@@ -1,0 +1,17 @@
+{
+  "name": "Olin-PIT-site",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "draggabilly": "^2.2.0",
+    "normalize.css": "^8.0.0",
+    "prefixfree": "^1.0.0",
+    "sweetalert": "^2.1.0"
+  }
+}
