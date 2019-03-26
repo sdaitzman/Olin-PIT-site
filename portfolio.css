@@ -1,0 +1,147 @@
+@keyframes fadeIn {
+  from { opacity: 0;transform: translateY(-20px) }
+  to { opacity: 1;transform: translateY(0) }
+}
+
+::selection {
+  color: white;
+  background: #8D92B9;
+}
+
+html {
+  animation: fadeIn 0.4s ease-out;
+  font-family: "IBM Plex Sans";
+  font-weight: 300;
+}
+
+body {
+  box-sizing: border-box;
+  border-top: 10px solid #e13d79;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.page-header {
+  display: flex;
+  flex-direction: column;
+  padding: 0 24px;
+}
+
+.page-title {
+  font: 48px "IBM Plex Sans";
+  text-align: center;
+  font-weight: 500;
+  margin: 80px auto;
+  line-height: 1;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid black;
+  -webkit-tap-highlight-color: transparent;
+}
+
+a:hover, a:focus {
+  color: #e13d79;
+  border-bottom-color: #e13d79;
+}
+
+a:active {
+  color: #8D92B9;
+  border-bottom-color: #8D92B9;
+}
+
+.go-back {
+  font-weight: 500;
+  color: #e13d79;
+  border: 2px solid #e13d79;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.go-back:hover {
+  background-color: #e13d79;
+  color: white;
+}
+
+.go-back:active {
+  border-color: #8D92B9;
+  background: #8D92B9;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 80px;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin: 0 5px 50px;
+  width: 500px;
+}
+
+.project-title {
+  text-transform: uppercase;
+  font-size: 20px;
+  width: fit-content;
+  margin: 0 0 3px 0;
+}
+
+.project-img {
+  width: 100%;
+  height: 281.25px;
+  object-fit: cover;
+}
+
+.project-categories {
+  height: 32px;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 2px 0 6px;
+  color: rgb(117, 117, 117);
+}
+
+@media (max-width: 950px) {
+  body {
+    justify-content: start;
+  }
+  .body-container {
+    flex-direction: column;
+  }
+  .page-header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .page-title {
+    font-size: 45px;
+    margin: 20px 0 50px;
+  }
+  .projects {
+    align-self: center;
+    justify-content: center;
+    padding-top: 0;
+  }
+  .project {
+    width: 280px;
+  }
+  .go-back {
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
+  }
+}
