@@ -53,11 +53,10 @@ body {
 }
 
 .noun-type {
-  font-size: 48px;
-  color: #909090;
+  margin-top: 8px;
+  font-size: 35px;
+  color: hsl(209, 28%, 47%);
   display: inline-flex;
-  font-style: italic;
-  padding-left: 16px;
 }
 
 .zine-pronounce {
@@ -117,24 +116,22 @@ a:active {
 }
 
 .hero {
-  color: #e13d79;
+  color: white;
+  background-color: hsl(209, 28%, 47%);
   text-align: center;
-  font-size: 48px;
+  font-size: 30px;
   line-height: 48px;
-  border-bottom: none;
-  border-bottom: 2px solid #e13d79;
-  padding-bottom: 11px;
+  padding: 2px 11px;
+  border: none;
 }
 
 .hero:hover, .hero:focus {
-  color: #b91d56;
-  border-bottom-color: #b91d56;
+  color: white;
 }
 
 .hero:active {
-  /* background-color: hsla(338, 73%, 79%, 1); */
-  color: hsla(338, 73%, 80%, 1);
-  border-bottom-color: hsla(338, 73%, 80%, 1);
+  color: white;
+  background-color: hsla(209, 35%, 47%, 0.3);
 }
 
 .hero i::before {
