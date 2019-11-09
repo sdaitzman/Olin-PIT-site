@@ -9,7 +9,7 @@ html, body {
 
 ::selection {
   color: white;
-  background: hsl(209, 28%, 47%);
+  background: #fbcf16;
 }
 
 html {
@@ -30,6 +30,11 @@ body {
 
 .body-container {
   max-width: 850px;
+}
+
+.header-image {
+  width: 188px;
+  height: auto;
 }
 
 .page-header {
@@ -56,7 +61,7 @@ body {
 .noun-type {
   margin-top: 8px;
   font-size: 35px;
-  color: hsl(209, 28%, 47%);
+  color: #26bbb2;
   display: inline-flex;
 }
 
@@ -107,18 +112,18 @@ a {
 }
 
 a:hover, a:focus {
-  color: #e13d79;
-  border-bottom-color: #e13d79;
+  color: #26bbb2;
+  border-bottom-color: #26bbb2;
 }
 
 a:active {
-  color: #8D92B9;
-  border-bottom-color: #8D92B9;
+  color: hsla(176, 66%, 44%, 0.3);
+  border-bottom-color: hsla(176, 66%, 44%, 0.3);
 }
 
 .hero {
   color: white;
-  background-color: hsl(209, 28%, 47%);
+  background-color: hsl(176, 66%, 44%);
   text-align: center;
   font-size: 30px;
   line-height: 48px;
@@ -132,7 +137,7 @@ a:active {
 
 .hero:active {
   color: white;
-  background-color: hsla(209, 35%, 47%, 0.3);
+  background-color: hsla(176, 66%, 44%, 0.3);
 }
 
 .hero i::before {
@@ -185,6 +190,8 @@ a:active {
     content: none;
   }
   .hero {
-    font-size: 36px;
+    font-size: 26px;
+    display: block;
+    margin-bottom: 8px;
   }
 }
