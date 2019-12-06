@@ -32,6 +32,8 @@ body {
   max-width: 850px;
 }
 
+.header-link { border-bottom: none; }
+
 .header-image {
   width: 188px;
   height: auto;
@@ -53,8 +55,6 @@ body {
 }
 
 .noun-type, .zine-pronounce {
-  margin-top: 0;
-  margin-bottom: 0;
   display: inline;
 }
 
@@ -74,12 +74,22 @@ body {
   color: #b1b1b1;
 }
 
-.about-zines, .profiles {
+.profiles, .body-text p, .body-text li {
   font: 30px "IBM Plex Sans";
   font-weight: 300;
   /* padding-left:175px; */
   /* padding-right: 20px; */
   /* text-align: justify; */
+}
+
+.fellowship-text p, .fellowship-text li {
+  font: 20px "IBM Plex Sans";
+  font-weight: 300;
+}
+
+.subnote {
+  font-style: italic;
+  color: gray;
 }
 
 
