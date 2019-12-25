@@ -12,6 +12,7 @@
     "draggabilly": "^2.2.0",
     "normalize.css": "^8.0.0",
     "prefixfree": "^1.0.0",
-    "sweetalert": "^2.1.0"
+    "sweetalert": "^2.1.0",
+    "vuepress": "^1.2.0"
   }
 }
