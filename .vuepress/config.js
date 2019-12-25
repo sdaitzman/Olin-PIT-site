@@ -7,5 +7,12 @@ module.exports = {
             { text: 'Blog', link: '/blog/' }
         ],
         logo: '/pint.png'
+    },
+    'markdown': {
+        anchor: {
+            permalink: false,
+            permalinkBefore: true,
+            permalinkSymbol: '#'
+        }
     }
 }
