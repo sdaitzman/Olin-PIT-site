@@ -1,7 +1,0 @@
-{
-  "name": "jquery.typer",
-  "version": "0.0.0",
-  "main": "./src/jquery.typer.js",
-  "dependencies": {
-  }
-}
