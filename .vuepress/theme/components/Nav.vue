@@ -7,7 +7,9 @@
         :alt="$siteTitle"
       >
       <ul class="nav-links">
-        <a href="/blog/"><li>Blog</li></a>
+        <router-link to="/"><li>Home</li></router-link>
+        <router-link to="/blog/"><li>Blog</li></router-link>
+        <router-link to="/fellowship/"><li>Fellowship</li></router-link>
       </ul>
   </div>
 </template>
