@@ -1,48 +1,65 @@
 <template>
-    <div class="body-container">
-        <Nav/>
-        <Content/>
+    <div>
+        <Nav />
+        <div class="body-container">
+            <div class="body-content">
+                <Content />
+            </div>
+        </div>
     </div>
 </template>
 
-<style lang="css">
-body {
-  box-sizing: border-box;
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-::selection {
-  color: white;
-  background: #fbcf16;
-}
-html {
-  animation: fadeIn 0.4s ease-out;
-  font-family: "IBM Plex Sans";
-  font-weight: 300;
-  /* text-align: justify; */
-}
+<style lang="scss">
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: scale(0.98)
+        }
+
+        to {
+            opacity: 1;
+            transform: scale(1)
+        }
+    }
+
+    ::selection {
+        color: white;
+        background: #fbcf16;
+    }
+
+    html, body {
+        // min-height: 100vh;
+    }
+
+    html {
+        animation: fadeIn 0.4s ease-out;
+    }
 </style>
 
 <style lang="scss" scoped>
+    .body-container {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
-
-.body-container {
-  position: relative;
-  max-width: 850px;
-}
-
+    .body-content {
+        position: relative;
+        max-width: 850px;
+        font-family: "IBM Plex Sans";
+        font-weight: 300;
+    }
 </style>
 
 <script>
-import 'typeface-ibm-plex-sans'
-import Nav from "@theme/components/Nav";
+    import 'typeface-ibm-plex-sans'
+    import Nav from "@theme/components/Nav";
 
-export default {
-    components: {
-        Nav
+    export default {
+        components: {
+            Nav
+        }
     }
-}
 </script>
