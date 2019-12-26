@@ -27,12 +27,13 @@
         background: #fbcf16;
     }
 
-    html, body {
-        // min-height: 100vh;
-    }
-
     html {
         animation: fadeIn 0.4s ease-out;
+    }
+
+    body {
+        font-family: "IBM Plex Sans";
+        font-weight: 300;
     }
 </style>
 
@@ -48,8 +49,6 @@
     .body-content {
         position: relative;
         max-width: 850px;
-        font-family: "IBM Plex Sans";
-        font-weight: 300;
     }
 </style>
 
