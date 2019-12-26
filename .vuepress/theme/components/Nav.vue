@@ -6,6 +6,9 @@
         :src="$withBase($site.themeConfig.logo)"
         :alt="$siteTitle"
       >
+      <ul class="nav-links">
+        <a href="/blog/"><li>Blog</li></a>
+      </ul>
   </div>
 </template>
 
