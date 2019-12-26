@@ -55,7 +55,8 @@
 
 <script>
     import 'typeface-ibm-plex-sans'
-    import Nav from "@theme/components/Nav";
+    import Nav from "@theme/components/Nav"
+    import 'normalize.css'
 
     export default {
         components: {
