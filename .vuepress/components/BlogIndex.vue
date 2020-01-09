@@ -1,7 +1,6 @@
-
 <template>
 <div>
-    <div v-for="post in posts">
+    <div class="test" v-for="post in posts">
         <h2>
             <router-link :to="post.path">{{ post.frontmatter.title }}</router-link>
         </h2>

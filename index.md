@@ -1,6 +1,7 @@
 ---
 title: "PInT: Public Interest Tech at Olin College"
 date: 2019-12-2
+layout: 'Home'
 ---
 
 
