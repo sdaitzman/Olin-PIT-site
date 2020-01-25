@@ -17,5 +17,6 @@ module.exports = {
             permalinkBefore: true,
             permalinkSymbol: '#'
         }
-    }
+    },
+    'patterns': ['!**/README.md', '**/*.md', '**/*.vue']
 }

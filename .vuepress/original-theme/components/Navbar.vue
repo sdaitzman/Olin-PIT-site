@@ -110,6 +110,7 @@ $navbar-horizontal-padding = 1.5rem
     background-color white
     white-space nowrap
     font-size 0.9rem
+    text-decoration none
     position absolute
     right $navbar-horizontal-padding
     top $navbar-vertical-padding

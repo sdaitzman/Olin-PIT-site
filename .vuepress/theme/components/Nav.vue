@@ -24,15 +24,27 @@
   </div>
 </template>
 
+<!-- Colors:
+#FB791B orange
+#FBCE1A yellow
+#34BEA5 green
+#80968D light grey
+#617472 medium grey
+#2C3E40 dark grey
+ -->
+
 <style lang="scss">
   .logo {
-    width: 150px;
+    width: 80px;
     height: auto;
+    margin-left: 15px;
   }
 
   .nav-container {
     display: flex;
     align-items: center;
+    background-color: #1e948c; // create a variable file for PIT colors
+    padding: 5px;
   }
 
   .nav-links {
@@ -45,6 +57,12 @@
     a {
       margin-right: 15px;
       height: 100%;
+      text-decoration: none;
+      color: white;
+      font-weight: normal;
+    }
+    a:hover {
+      color: #FBCE1A;
     }
     li {
       font-size: 26px;
