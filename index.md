@@ -4,10 +4,6 @@ date: 2019-12-2
 layout: 'Home'
 ---
 
-``` html
-<h1>HIIIII </h1>
-```
-
 # PInT Summer Fellowship
 
 PInT is launching our summer 2020 fellowship, which will place three Olin College students at summer internships within public interest organizations. Fellowship recipients can spend a summer practicing and deepening their powerful technical and creative skills for justice, equity, inclusion, and doing good in the world, at an organization they're passionate about.
