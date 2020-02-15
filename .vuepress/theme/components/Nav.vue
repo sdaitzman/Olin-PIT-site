@@ -45,6 +45,7 @@
     align-items: center;
     background-color: #1e948c; // create a variable file for PIT colors
     padding: 5px;
+    box-sizing: border-box;
   }
 
   .nav-links {
@@ -54,6 +55,7 @@
     flex-direction: row;
     list-style-type: none;
     justify-content: space-evenly;
+
     a {
       margin-right: 15px;
       height: 100%;
