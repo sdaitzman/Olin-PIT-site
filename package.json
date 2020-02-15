@@ -11,6 +11,7 @@
   "author": "",
   "license": "",
   "dependencies": {
+    "@vuepress/plugin-blog": "^1.9.2",
     "@vuepress/plugin-google-analytics": "^1.2.0",
     "node-sass": "^4.13.0",
     "normalize.css": "^8.0.0",
