@@ -18,7 +18,7 @@ export default {
         posts() {
             // console.log(this.$site.pages.filter(x => x.id == 'post'))
             return this.$site.pages.filter((x) => {
-                return x.id == 'post'
+                return x.id === 'post'
                     && x.frontmatter.tags.includes('summary')
             }).sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date))
         }
