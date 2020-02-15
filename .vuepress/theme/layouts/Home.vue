@@ -2,12 +2,12 @@
     <div>
         <Nav />
         <div class="body-container">
-            <div class="body-content">
-                <CoverImage> PInT is a student-led initiative at Olin College of Engineering to create and support ways for the collegiate community to apply their technical skills to the wider world's complex issues. Part of this initiative means sparking events and conversations about engineering, policy, society, and our responsibility as engineers. Another part of this initiative is developing multiple avenues for students to get involved. This includes pro-bono consulting work for non-profits, integrating ethics exercises and real-life scenarios into the curriculum, and student-led activism and art. </CoverImage>
-                <ImageTile>test</ImageTile>
-                <Content />
-            </div>
+            <CoverImage> PInT is a student-led initiative at Olin College of Engineering to create and support ways for the collegiate community to apply their technical skills to tackle the wider world's complex issues. </CoverImage>
         </div>
+        <!-- <div class="body-content">
+            <Content />
+        </div>
+        <ImageTile>test</ImageTile> -->
     </div>
 </template>
 
@@ -42,7 +42,7 @@
 <style lang="scss" scoped>
     .body-container {
         box-sizing: border-box;
-        display: flex;
+        display: absolute;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -57,12 +57,13 @@
 <script>
     import 'typeface-ibm-plex-sans'
     import Nav from "@theme/components/Nav"
+    import CoverImage from "@theme/components/CoverImage"
     import ImageTile from "@theme/components/ImageTile"
     import 'normalize.css'
 
     export default {
         components: {
-            Nav, ImageTile
+            Nav, ImageTile, CoverImage
         }
     }
 </script>
