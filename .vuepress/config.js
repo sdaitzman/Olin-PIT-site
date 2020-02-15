@@ -21,7 +21,7 @@ module.exports = {
             }, ],
             frontmatters: [{
                 id: "tag",
-                keys: ['tag', 'tags'],
+                keys: ['tags'],
                 path: '/tag/',
                 layout: 'Tag',
                 frontmatter: {

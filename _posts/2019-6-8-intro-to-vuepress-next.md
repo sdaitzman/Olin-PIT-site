@@ -1,5 +1,5 @@
 ---
-tag:
+tags:
   - vue
   - vuepress
 title: Eggs
