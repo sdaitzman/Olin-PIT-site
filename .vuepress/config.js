@@ -14,7 +14,7 @@ module.exports = {
             directories: [{
                 id: 'post',
                 dirname: '_posts',
-                path: '/allPosts',
+                path: '/allPosts/',
                 pagination: {
                     perPagePosts: 2,
                 },

@@ -1,19 +1,16 @@
 <template>
 <div>
-    <div class="test" v-for="post in posts">
-        <h2>
-            <router-link :to="post.path">{{ post.title }}</router-link>
-        </h2>
-        
-        <!-- <p>{{ post.frontmatter.description }}</p> -->
-
-        <p><router-link :to="post.path">Read more</router-link></p>
-    </div>
+    <List :posts="posts"></List>
 </div>
 </template>
 
 <script>
+import List from '../theme/components/List.vue'
+
 export default {
+    components: {
+        List
+    },
     computed: {
         posts() {
             // console.log(this.$site.pages.filter(x => x.id == 'post'))

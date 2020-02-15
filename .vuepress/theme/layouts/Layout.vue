@@ -5,16 +5,9 @@
             <div class="body-content">
                 <Content />
             </div>
-            <div v-if="$pagination">
-                <li v-for="page in $pagination.pages">
-                    <router-link class="page-link" :to="page.path">{{ page.title }}</router-link>
-                </li>
-            </div>
+            <List v-if="$pagination" :posts="$pagination.pages"></List>
         </div>
-        <div v-if="$pagination" id="pagination">
-            <router-link v-if="$pagination.hasPrev" :to="$pagination.prevLink">Prev</router-link>
-            <router-link v-if="$pagination.hasNext" :to="$pagination.nextLink">Next</router-link>
-        </div>
+
     </div>
 </template>
 
@@ -64,11 +57,13 @@
 <script>
     import 'typeface-ibm-plex-sans'
     import Nav from "@theme/components/Nav"
+    import List from '@theme/components/List.vue'
     import 'normalize.css'
 
     export default {
         components: {
-            Nav
+            Nav,
+            List
         }
     }
 </script>
