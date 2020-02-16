@@ -4,7 +4,7 @@
         <div class="body-container">
             <div class="body-content">
                 <Content />
-                <List v-if="$tag.list" :items="$tag.list"></List>
+                <TagList v-if="$tag.list" :items="$tag.list"></TagList>
             </div>
         </div>
 
@@ -22,13 +22,13 @@
 <script>
   import 'typeface-ibm-plex-sans'
   import Nav from "@theme/components/Nav"
-  import List from '@theme/components/List.vue'
+  import TagList from '@theme/components/TagList.vue'
   import 'normalize.css'
 
   export default {
     components: {
       Nav,
-      List
+      TagList
     }
   }
 </script>

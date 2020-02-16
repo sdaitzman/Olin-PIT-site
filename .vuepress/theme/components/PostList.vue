@@ -1,9 +1,9 @@
 <template>
     <div>
         <div v-if="this.items">
-            <li v-for="item in pageOfItems">
-                <router-link class="page-link" :to="item.path">{{ item.title || item.name }}</router-link>
-            </li>
+            <div v-for="item in pageOfItems">
+                <router-link class="page-link" :to="item.path">{{ item.title }}</router-link>
+            </div>
             <jw-pagination :items="this.items" @changePage="onChangePage"></jw-pagination>
         </div>
     </div>
@@ -16,26 +16,28 @@
 
 <!-- Pagination tutorial: https://jasonwatmore.com/post/2019/08/21/vue-js-simple-pagination-example -->
 <script>
-import JwPagination from 'jw-vue-pagination';
+    import JwPagination from 'jw-vue-pagination';
 
-  export default {
-    components: {
-      JwPagination
-    },
-    data() {
-      return {
-        pageOfItems: []
-      };
-    },
-    props: {
-      items: Array
-    },
-    methods: {
-      onChangePage(pageOfPosts) {
-        this.pageOfItems = pageOfPosts;
-      }
+    export default {
+        components: {
+            JwPagination
+        },
+        data() {
+            return {
+                pageOfItems: []
+            };
+        },
+        props: {
+            items: Array,
+            pagination: Object
+        },
+        methods: {
+            onChangePage(pageOfPosts) {
+                console.log(this.pagination)
+                this.pageOfItems = pageOfPosts;
+            }
+        }
     }
-  }
 </script>
 
 <!-- Borrow from @vuepress-plugin-blog/Pagination.vue-->

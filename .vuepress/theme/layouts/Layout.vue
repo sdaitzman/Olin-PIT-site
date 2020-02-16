@@ -1,10 +1,10 @@
 <template>
     <div>
-        <Nav />
+        <Nav/>
         <div class="body-container">
             <div class="body-content">
-                <Content />
-                <List v-if="$pagination" :items="$pagination.pages"></List>
+                <Content/>
+                <PostList v-if="$pagination" :items="$pagination._matchedPages"></PostList>
             </div>
         </div>
 
@@ -22,13 +22,13 @@
 <script>
     import 'typeface-ibm-plex-sans'
     import Nav from "@theme/components/Nav"
-    import List from '@theme/components/List.vue'
+    import PostList from '@theme/components/PostList.vue'
     import 'normalize.css'
 
     export default {
         components: {
             Nav,
-            List
+            PostList
         }
     }
 </script>
