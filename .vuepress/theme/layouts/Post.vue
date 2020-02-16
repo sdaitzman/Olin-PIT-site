@@ -10,47 +10,12 @@
     </div>
 </template>
 
-<style lang="scss">
-    @keyframes fadeIn {
-        from {
-            opacity: 0;
-            transform: scale(0.98)
-        }
+<style lang="scss" src="@theme/styles/styles.scss">
 
-        to {
-            opacity: 1;
-            transform: scale(1)
-        }
-    }
-
-    ::selection {
-        color: white;
-        background: #fbcf16;
-    }
-
-    html {
-        animation: fadeIn 0.4s ease-out;
-    }
-
-    body {
-        font-family: "IBM Plex Sans";
-        font-weight: 300;
-    }
 </style>
 
 <style lang="scss" scoped>
-    .body-container {
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
 
-    .body-content {
-        position: relative;
-        max-width: 850px;
-    }
 </style>
 
 <script>

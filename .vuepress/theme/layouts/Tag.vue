@@ -1,8 +1,34 @@
 <template>
-    <ul id="default-layout">
-        <span>{{$frontmatter.title}}</span>
-        <li v-for="tag in $tag.list">
-            <router-link class="page-link" :to="tag.path">{{ tag.name }}</router-link>
-        </li>
-    </ul>
+    <div>
+        <Nav />
+        <div class="body-container">
+            <div class="body-content">
+                <Content />
+                <List v-if="$tag.list" :items="$tag.list"></List>
+            </div>
+        </div>
+
+    </div>
 </template>
+
+<style lang="scss" src="@theme/styles/styles.scss">
+
+</style>
+
+<style lang="scss" scoped>
+
+</style>
+
+<script>
+  import 'typeface-ibm-plex-sans'
+  import Nav from "@theme/components/Nav"
+  import List from '@theme/components/List.vue'
+  import 'normalize.css'
+
+  export default {
+    components: {
+      Nav,
+      List
+    }
+  }
+</script>

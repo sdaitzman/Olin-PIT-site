@@ -5,13 +5,14 @@
 </template>
 
 <style lang="scss" scoped>
-
+    @import "@theme/styles/styles.scss";
 </style>
 
 <script>
-import List from '../theme/components/List.vue'
+    import List from '@theme/components/List.vue'
 
 export default {
+      name: 'BlogIndex',
     components: {
         List
     },
