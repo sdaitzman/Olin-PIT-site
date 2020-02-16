@@ -1,8 +1,12 @@
 <template>
 <div>
-    <List :posts="posts"></List>
+    <List :items="posts"></List>
 </div>
 </template>
+
+<style lang="scss" scoped>
+
+</style>
 
 <script>
 import List from '../theme/components/List.vue'

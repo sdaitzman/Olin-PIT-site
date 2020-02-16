@@ -4,8 +4,8 @@
         <div class="body-container">
             <div class="body-content">
                 <Content />
+                <List v-if="$pagination" :items="$pagination.pages"></List>
             </div>
-            <List v-if="$pagination" :posts="$pagination.pages"></List>
         </div>
 
     </div>

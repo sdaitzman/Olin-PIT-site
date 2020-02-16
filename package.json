@@ -13,7 +13,8 @@
   "dependencies": {
     "@vuepress/plugin-blog": "^1.9.2",
     "@vuepress/plugin-google-analytics": "^1.2.0",
-    "node-sass": "^4.13.0",
+    "jw-vue-pagination": "^1.0.3",
+    "node-sass": "^4.13.1",
     "normalize.css": "^8.0.0",
     "sass-loader": "^8.0.0",
     "typeface-ibm-plex-sans": "0.0.75",
