@@ -1,19 +1,21 @@
 # Strategic Plan AY2020-21
 
 ## Executive Summary
-Here we will create our strategic plan for the 2020-2021 Academic Year. All of the changes will also be recorded in the Changelog so we can keep a record of our process. 
-* Provide a motivation for creating this document.
-* Provide some context around the process for creating the document.
-* Some context for how to navigate this document (make it clear that it is a living, breathing document).
+It is part of Olin’s culture and mission to empower its students to “Do Something:” to be able to create the change they want to see in the world and to set things right when they are wrong. Public interest technology (PIT), an emerging field focused on centering humanity and people around the technology we make, is a useful and powerful framework for acting on this mission at a large scale. Over the 19-20 academic year, PInT, a student group funded by the Public Interest Technology University Network (of which Olin is a member), has introduced PIT to members of the Olin community in a variety of ways. Through our work, it has become clear that PIT aligns with the ideals, wanted skill sets, and identities of many Oliners. We need public interest technologists now more than ever, and our plan outlines how we will create opportunities for Olin students to engage with PIT and give them the tools to use their engineering skills to create positive change and “Do Something.”
+
+Over PInT’s first year, we have grown tremendously in our presence and impact on campus, and as a result want to be intentional about how to support PInT’s growth in the future. In order to ensure that PInT continues to foster the growing community of public interest technologists and PIT work at Olin, we (the leadership of PInT) have created the following strategic plan to outline our actions and strategy for this summer and the next academic year.
+
+With COVID-19 and all of the uncertainty that exists in the world right now, it is particularly important to see this document as tentative. As we learn more about the future of Olin and get closer to the fall semester, we will adjust this plan, which articulates PInT’s existence in many forms, to best fit the situation we face.
+
+However, most of this document—the vision, mission, and core values—is intended to serve as foundational principles. We use these foundational principles to guide the further sections of the plan, like the key themes and action plan, which will change based on PInT and Olin’s needs. This plan was written collaboratively with input from students and faculty, and we continue to invite all community members’ input and feedback. 
 
 ## Vision & Mission Statements
 ### Vision Statement
 
-PInT envisions a more **just and equitable world** where all people thrive, and all people have a voice in co-creating their world. We hope to help empower the Olin community to co-create our world and understand their responsibility to serve the public interest. We aim to **redefine engineering** to be centered around humans and the public interest by **embracing values of equity, justice, and inclusion**. Fundamentally, we **value the lived experiences and shared humanity of all people** and believe in a world in which all feel invited and empowered to work on public interest technology. 
+PInT envisions a more just and equitable world where all people thrive, and all people have a voice in co-creating their world. We hope to help empower the Olin community to co-create our world and understand their responsibility to serve the public interest. We aim to redefine engineering to be centered around humans and the public interest by embracing values of equity, justice, and inclusion. Fundamentally, we value the lived experiences and shared humanity of all people and believe in a world in which all feel invited and empowered to work on public interest technology. 
 
 ### Mission Statement
-
-PInT creates space for all members of the Olin community to engage with and grow their skills in public interest tech, social justice, and activism. We offer opportunities for students to engage in **deliberate reflection** on their personal values and the change that they want to create in the world, to develop the **skills and attitudes** needed to create this change, and to apply this growing mindset to **practical opportunities focused on making their impact** (leveraging Olin’s do-learn philosophy). These activities, and the space and culture we cultivate around them, will help students grow their identity as public interest technologists and **feel both a responsibility and ability to create the change they want to see.**
+PInT creates space for all members of the Olin community to engage with and grow their skills in public interest tech, social justice, and activism. We offer opportunities for students to engage in deliberate reflection on their personal values and the change that they want to create in the world, to develop the skills and attitudes needed to create this change, and to apply this growing mindset to practical opportunities focused on making their impact (leveraging Olin’s do-learn philosophy). These activities, and the space and culture we cultivate around them, will help students grow their identity as public interest technologists and feel both a responsibility and ability to create the change they want to see.
 
 ## Core Values
 
