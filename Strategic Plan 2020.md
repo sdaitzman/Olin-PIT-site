@@ -100,4 +100,4 @@ We first identified an MVP for PInT, which is as follows:
 
 * Leadership team transitions - to whatever level being on the leadership means
 
-We then considered all possible actions for the next AY and wrote a small proposal for each one. Those actions are in this document: (Actions Outline)[https://docs.google.com/document/d/1v4t1vhRQSTktZN5s19_3NUa_o6XUF6_3bz_9BfFUg7M/edit?usp=sharing]. Keep in mind that all actions besides those aligned with PInT MVP are tentative as of this time.
+We then considered all possible actions for the next AY and wrote a small proposal for each one. Those actions are in this document: [Actions Outline](https://docs.google.com/document/d/1v4t1vhRQSTktZN5s19_3NUa_o6XUF6_3bz_9BfFUg7M/edit?usp=sharing). Keep in mind that all actions besides those aligned with PInT MVP are tentative as of this time.
